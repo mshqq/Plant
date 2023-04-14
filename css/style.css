@@ -1,0 +1,598 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1275px;
+  margin: auto;
+}
+
+nav {
+  max-width: 1200px;
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+}
+
+.main-nav {
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 13px;
+}
+
+ul li {
+  display: inline;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #1A1A1A;
+  margin-right: 332px;
+  font-family: "Nunito", sans-serif;
+}
+
+.item-list a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 48px;
+}
+
+.item-list {
+  color: #1A1A1A;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.auth {
+  display: inline;
+  padding-top: 29px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sign-up {
+  background: #066F14;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.login {
+  margin-left: 80px;
+  margin-right: 48px;
+}
+
+header {
+  margin-bottom: 90px;
+}
+
+.hero-title {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+  margin-bottom: 30px;
+}
+.hero-subtitle p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4A4A4A;
+  margin-bottom: 56px;
+}
+.hero-learn-more {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background: #066F14;
+  border-radius: 4px;
+  padding: 16px 32px;
+  gap: 10px;
+}
+.hero-content-info {
+  margin-bottom: 60px;
+}
+.hero-content-advantages-list {
+  max-width: 548px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.hero-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-item-list:not(:last-child) {
+  margin-right: 112px;
+}
+
+.advantage-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #001B04;
+}
+.advantage-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1A1A1A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-one {
+  background-image: url(../../img/hero/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: right 13px bottom 71px;
+  background-size: 820px 720px;
+  padding-bottom: 70px;
+}
+
+.container-two {
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.collection {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 62px;
+}
+.collection-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #1A1A1A;
+  margin-bottom: 0px;
+}
+.collection-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4A4A4A;
+}
+.collection-images-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.collection-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 37px;
+}
+
+.about-us {
+  display: flex;
+  max-width: 1100px;
+  justify-content: center;
+  padding-top: 120px;
+}
+.about-us-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  padding-left: 60px;
+}
+.about-us-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #066F14;
+}
+.about-us-title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #1A1A1A;
+}
+.about-us-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4A4A4A;
+  padding-bottom: 16px;
+}
+.about-us-addsubtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4A4A4A;
+  padding-bottom: 36px;
+}
+.about-us-button {
+  width: 155px;
+  height: 55px;
+  background: #066F14;
+  border-radius: 4px;
+  display: flex;
+}
+.about-us-button a {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.menu {
+  padding-top: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+.menu-nav {
+  margin-top: 0px;
+  padding-top: 24px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+}
+.menu-heading {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #1A1A1A;
+  margin-bottom: 0px;
+}
+.menu-btn {
+  padding: 16px 32px;
+  background: #066F14;
+  border-radius: 4px;
+  color: white;
+}
+.menu-item-list {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #4A4A4A;
+}
+.menu-item-list-active {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #066F14;
+  padding-right: 24px;
+}
+.menu-item-list:not(:last-child) {
+  padding-right: 24px;
+}
+.menu-offers-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.menu-offers-img {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+.menu-offers-item {
+  width: 270px;
+  height: 283px;
+}
+.menu-offers-title {
+  display: block;
+  padding-left: 31px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1A1A1A;
+}
+.menu-offers-subitem {
+  display: block;
+  text-align: left;
+  padding-left: 32px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1A1A1A;
+}
+.menu-offers-subitem img {
+  display: block;
+  padding-bottom: 12px;
+}
+
+.bg-1 {
+  background: #EAF2E5;
+}
+
+.bg-2 {
+  background: #F0EBE6;
+}
+
+.bg-3 {
+  background: #E2ECE4;
+}
+
+.bg-4 {
+  background: #E7EEED;
+}
+
+.reviews {
+  margin: 0 auto;
+  margin-bottom: 164px;
+  width: 1152px;
+  height: 430px;
+  background-image: url(/../../img/reviews/bg.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right 10px bottom 0px;
+}
+.reviews-islam-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ECECEC;
+  word-break: normal;
+  margin-left: 32px;
+  margin-top: 0;
+}
+.reviews-main {
+  margin-bottom: 43px;
+}
+.reviews-main-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #1A1A1A;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.reviews-main-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4A4A4A;
+}
+.reviews-sub {
+  width: 597px;
+  height: 204px;
+  background: #066F14;
+  margin-bottom: 43px;
+}
+.reviews-sub-label {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 32px;
+  padding-bottom: 16px;
+}
+.reviews-sub-text {
+  display: inline;
+  padding-left: 10px;
+}
+.reviews-sub-title {
+  display: block;
+  padding-top: 5px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  margin-bottom: 6px;
+}
+.reviews-sub-subtitle {
+  display: block;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #D9D9D9;
+}
+
+.news {
+  margin-bottom: 150px;
+}
+.news-img {
+  width: 300px;
+  height: 409px;
+  margin-left: 217px;
+  padding: 0px;
+}
+.news-main {
+  display: flex;
+  margin: 0 auto;
+  background-color: #DFFFE3;
+  background-image: url(../../img/news/bg.png);
+  background-repeat: no-repeat;
+  background-size: 302px 396px;
+  background-position: right 0px bottom 0px;
+  border-radius: 6px;
+  padding-top: 60px;
+  padding-left: 59px;
+  width: 1040px;
+  height: 320px;
+}
+.news-main-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #1A1A1A;
+}
+.news-main-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4A4A4A;
+}
+.news-main-btn {
+  background: #066F14;
+  border-radius: 4px;
+  border-shadow: 0;
+  padding: 11px 16px;
+  width: 98px;
+  height: 40px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FEFEFE;
+  z-index: 10;
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 368px;
+  border: 0;
+}
+.news-main-input {
+  z-index: 1;
+  width: 451px;
+  height: 56px;
+  border-color: #FFFFFF;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  border: 0;
+  color: #5A5A5A;
+  outline: 0;
+  box-shadow: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 89px;
+}
+.footer-icons {
+  margin-top: 25px;
+  padding: 0px;
+}
+.footer-icons-item:not(:last-child) {
+  margin-right: 16px;
+}
+.footer-icons-item img {
+  padding: 12px;
+  background: #EDFFDD;
+  border-radius: 4px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+}
+.footer-container ul {
+  padding: 0;
+  margin-left: 0px;
+}
+.footer-container li {
+  padding-bottom: 10px;
+}
+.footer-container a {
+  color: #5A5A5A;
+}
+.footer-desc {
+  display: inline;
+  padding-right: 201px;
+}
+.footer-nav {
+  display: inline;
+}
+.footer-nav-item {
+  display: block;
+  text-align: left;
+}
+.footer-about {
+  display: inline;
+}
+.footer-about-item {
+  display: block;
+}
+.footer-help {
+  display: inline;
+}
+.footer-help-item {
+  display: block;
+}
+.footer-main-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1A1A1A;
+}
+.footer-main-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #5A5A5A;
+  margin: 0px;
+}/*# sourceMappingURL=style.css.map */
